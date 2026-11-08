@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Discover the Philippines — explore its islands, culture, history, food, and beautiful destinations.">
+<title>Discover the Philippines | Pearl of the Orient Seas</title>
+<style>
+:root{--blue:#123c75;--red:#c92d3a;--gold:#f5c542;--ink:#17243a;--muted:#637083;--paper:#fff;--pale:#f3f7fc}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.6}a{color:inherit;text-decoration:none}.topbar{background:var(--blue);color:white;text-align:center;padding:7px 16px;font-size:.84rem;letter-spacing:.04em}.nav{position:sticky;top:0;z-index:10;background:#ffffffed;backdrop-filter:blur(10px);display:flex;justify-content:space-between;align-items:center;padding:14px max(5%,calc((100% - 1160px)/2));box-shadow:0 2px 14px #10294a12}.brand{font-weight:800;color:var(--blue);font-size:1.15rem}.brand span{color:var(--red)}.navlinks{display:flex;gap:22px;font-size:.92rem;font-weight:700}.navlinks a:hover{color:var(--red)}.menu{display:none;border:0;background:var(--blue);color:white;padding:8px 12px;border-radius:8px;font-size:1rem}
+.hero{min-height:570px;display:grid;place-items:center;text-align:center;color:white;padding:90px 20px;background:linear-gradient(90deg,#071b35bb,#071b3544),url('https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=2000&q=85') center/cover}
+.hero-inner{max-width:850px}.eyebrow{text-transform:uppercase;letter-spacing:.2em;font-weight:800;color:var(--gold);font-size:.82rem}.hero h1{font-size:clamp(2.7rem,7vw,5.4rem);line-height:1.03;margin:15px 0}.hero p{font-size:1.15rem;max-width:680px;margin:0 auto 28px;color:#f1f5fb}.btn{display:inline-block;background:var(--gold);color:#17243a;padding:13px 23px;border-radius:999px;font-weight:800}.btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px #0003}
+section{padding:76px 20px}.wrap{max-width:1120px;margin:auto}.section-head{text-align:center;max-width:720px;margin:0 auto 38px}.section-head .eyebrow{color:var(--red)}h2{font-size:clamp(2rem,4vw,3rem);line-height:1.15;margin:8px 0 14px;color:var(--blue)}.section-head p,.intro p{color:var(--muted)}.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:42px;align-items:center}.intro-img{width:100%;height:350px;object-fit:cover;border-radius:22px;box-shadow:0 15px 40px #132b4b22}.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:25px}.fact{background:var(--pale);padding:15px;border-radius:13px;text-align:center}.fact strong{display:block;color:var(--red);font-size:1.35rem}.fact span{font-size:.8rem;color:var(--muted)}
+.pale{background:var(--pale)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{background:white;border-radius:18px;overflow:hidden;box-shadow:0 8px 28px #142d4b12;transition:.2s}.card:hover{transform:translateY(-5px)}.card img{width:100%;height:205px;object-fit:cover;display:block}.card-body{padding:20px}.tag{font-size:.75rem;font-weight:800;color:var(--red);text-transform:uppercase;letter-spacing:.08em}.card h3{margin:5px 0 8px;color:var(--blue);font-size:1.25rem}.card p{margin:0;color:var(--muted);font-size:.94rem}
+.culture-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.culture{background:white;border:1px solid #e5ebf3;border-radius:16px;padding:22px}.culture .emoji{font-size:2rem}.culture h3{color:var(--blue);margin:9px 0 5px}.culture p{color:var(--muted);font-size:.9rem;margin:0}
+.food-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.food{background:white;border-radius:18px;overflow:hidden;box-shadow:0 8px 28px #142d4b12}.food img{width:100%;height:190px;object-fit:cover}.food div{padding:17px 20px}.food h3{margin:0 0 5px;color:var(--blue)}.food p{margin:0;color:var(--muted);font-size:.92rem}
+.quote{background:linear-gradient(120deg,var(--blue),#1e5795);color:white;text-align:center;padding:65px 20px}.quote blockquote{font-size:clamp(1.4rem,3vw,2.1rem);font-weight:700;max-width:850px;margin:0 auto 12px}.quote p{color:#dce8f7;margin:0}
+footer{background:#0c2342;color:#dce6f4;padding:38px 20px;text-align:center}footer strong{color:white;font-size:1.2rem}footer p{font-size:.88rem;margin:8px 0}.footer-links{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin:18px 0}.footer-links a:hover{color:var(--gold)}
+@media(max-width:800px){.navlinks{display:none;position:absolute;top:58px;left:0;right:0;background:white;padding:18px 25px;flex-direction:column;gap:13px;box-shadow:0 10px 20px #0001}.navlinks.open{display:flex}.menu{display:block}.intro-grid{grid-template-columns:1fr}.cards,.food-grid{grid-template-columns:repeat(2,1fr)}.culture-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:540px){section{padding:58px 17px}.hero{min-height:510px}.cards,.food-grid{grid-template-columns:1fr}.culture-grid{grid-template-columns:1fr 1fr}.facts{grid-template-columns:1fr 1fr}.nav{padding:13px 18px}}
+</style>
+</head>
+<body>
+<div class="topbar">🇵🇭 MABUHAY! WELCOME TO THE PHILIPPINES</div>
+<nav class="nav">
+  <a class="brand" href="#home">DISCOVER<span>PH</span> 🇵🇭</a>
+  <button class="menu" aria-label="Open navigation" onclick="document.querySelector('.navlinks').classList.toggle('open')">☰</button>
+  <div class="navlinks">
+    <a href="#about">About</a><a href="#places">Destinations</a><a href="#culture">Culture</a><a href="#food">Food</a><a href="#history">History</a>
+  </div>
+</nav>
+<header class="hero" id="home">
+  <div class="hero-inner">
+    <div class="eyebrow">Pearl of the Orient Seas</div>
+    <h1>Discover the<br>Philippines</h1>
+    <p>A beautiful country of more than 7,000 islands, rich traditions, warm hospitality, breathtaking nature, and unforgettable stories.</p>
+    <a class="btn" href="#about">Explore the Philippines ↓</a>
+  </div>
+</header>
+<section id="about">
+  <div class="wrap intro-grid">
+    <div class="intro">
+      <div class="eyebrow">A country like no other</div>
+      <h2>More than just islands</h2>
+      <p>The Philippines is an archipelago in Southeast Asia, located in the western Pacific Ocean. It is known for its beautiful beaches, green mountains, colorful festivals, diverse languages, and friendly communities.</p>
+      <p>Its people are shaped by many influences and have built a culture that values family, community, creativity, and hospitality. Every island and region has its own special story to share.</p>
+      <div class="facts">
+        <div class="fact"><strong>7,000+</strong><span>Islands (commonly stated)</span></div>
+        <div class="fact"><strong>3</strong><span>Main island groups</span></div>
+        <div class="fact"><strong>Manila</strong><span>Capital city</span></div>
+      </div>
+    </div>
+    <img class="intro-img" src="https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=1100&q=85" alt="Tropical island scenery in the Philippines">
+  </div>
+</section>
+<section class="pale" id="places">
+  <div class="wrap">
+    <div class="section-head"><div class="eyebrow">Explore the islands</div><h2>Beautiful places to visit</h2><p>From clear blue waters to historic streets, the Philippines has a destination for every kind of traveler.</p></div>
+    <div class="cards">
+      <article class="card"><img src="https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=900&q=80" alt="Palawan island landscape"><div class="card-body"><span class="tag">Nature</span><h3>Palawan</h3><p>Famous for limestone cliffs, turquoise lagoons, hidden beaches, and beautiful island scenery.</p></div></article>
+      <article class="card"><img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=900&q=80" alt="Tropical beach and sea"><div class="card-body"><span class="tag">Beach</span><h3>Boracay</h3><p>Known for its powdery white sand, clear water, and lively seaside atmosphere.</p></div></article>
+      <article class="card"><img src="https://images.unsplash.com/photo-1513415277900-a62401e19be4?auto=format&fit=crop&w=900&q=80" alt="Mountain rice terraces"><div class="card-body"><span class="tag">Heritage</span><h3>Banaue Rice Terraces</h3><p>Magnificent mountain terraces that show generations of Ifugao knowledge and hard work.</p></div></article>
+      <article class="card"><img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=900&q=80" alt="Historic city architecture"><div class="card-body"><span class="tag">History</span><h3>Intramuros, Manila</h3><p>A historic walled district where visitors can learn about the country's colonial past.</p></div></article>
+      <article class="card"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="Mountain landscape"><div class="card-body"><span class="tag">Adventure</span><h3>Chocolate Hills, Bohol</h3><p>A remarkable landscape of rounded hills that turn brown during the dry season.</p></div></article>
+      <article class="card"><img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=900&q=80" alt="Coastal island scenery"><div class="card-body"><span class="tag">Coast</span><h3>Siargao</h3><p>An island destination loved for surfing, palm-lined roads, lagoons, and relaxed island life.</p></div></article>
+    </div>
+  </div>
+</section>
+<section id="culture">
+  <div class="wrap">
+    <div class="section-head"><div class="eyebrow">Our identity</div><h2>Culture and traditions</h2><p>Filipino culture is diverse and colorful, with traditions that bring families and communities together.</p></div>
+    <div class="culture-grid">
+      <article class="culture"><div class="emoji">🤝</div><h3>Hospitality</h3><p>Filipinos are known for welcoming guests and making people feel at home.</p></article>
+      <article class="culture"><div class="emoji">👨‍👩‍👧‍👦</div><h3>Family</h3><p>Family ties and caring for one another are important parts of everyday life.</p></article>
+      <article class="culture"><div class="emoji">🎉</div><h3>Festivals</h3><p>Celebrations such as Sinulog, Ati-Atihan, and Panagbenga feature music, dance, and colorful costumes.</p></article>
+      <article class="culture"><div class="emoji">🎶</div><h3>Arts and music</h3><p>Traditional dances, crafts, storytelling, and modern music express Filipino creativity.</p></article>
+    </div>
+  </div>
+</section>
+<section class="pale" id="food">
+  <div class="wrap">
+    <div class="section-head"><div class="eyebrow">A taste of home</div><h2>Famous Filipino foods</h2><p>Filipino dishes bring together local ingredients, regional flavors, and family traditions.</p></div>
+    <div class="food-grid">
+      <article class="food"><img src="https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?auto=format&fit=crop&w=900&q=80" alt="Filipino adobo-style meal"><div><h3>Adobo</h3><p>A well-loved dish commonly cooked with meat, vinegar, soy sauce, garlic, and spices.</p></div></article>
+      <article class="food"><img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80" alt="Filipino spring rolls"><div><h3>Lumpia</h3><p>Thin wrappers filled with vegetables or meat, often served at celebrations and family meals.</p></div></article>
+      <article class="food"><img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=900&q=80" alt="Sweet Filipino dessert"><div><h3>Halo-halo</h3><p>A refreshing dessert made with crushed ice, milk, sweet ingredients, and assorted toppings.</p></div></article>
+    </div>
+  </div>
+</section>
+<section id="history">
+  <div class="wrap intro-grid">
+    <img class="intro-img" src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1100&q=85" alt="Historic architecture">
+    <div class="intro">
+      <div class="eyebrow">Our shared story</div><h2>A brief look at Philippine history</h2>
+      <p>Long before Spanish rule, communities across the islands had their own leaders, trade networks, beliefs, and cultures. Spain began colonizing the islands in the 1500s. The Filipino struggle for freedom grew through generations of resistance and reform.</p>
+      <p>The Philippines declared independence from Spain on June 12, 1898. The country later experienced American rule and Japanese occupation during World War II. It became an independent republic on July 4, 1946. Today, Filipinos continue to shape the nation's future.</p>
+    </div>
+  </div>
+</section>
+<div class="quote"><blockquote>“The strength of the Filipino people is found in our unity, resilience, and love for our homeland.”</blockquote><p>— A celebration of the Filipino spirit</p></div>
+<footer>
+  <strong>DISCOVER THE PHILIPPINES 🇵🇭</strong>
+  <p>Beautiful islands. Rich culture. One proud nation.</p>
+  <div class="footer-links"><a href="#home">Home</a><a href="#about">About</a><a href="#places">Destinations</a><a href="#culture">Culture</a><a href="#food">Food</a></div>
+  <p>Educational website project • Made with pride for the Philippines</p>
+</footer>
+</body>
+</html>
